@@ -7,9 +7,8 @@ import { getIpAddress, getProxyAgent, getRandomUserAgent, sleep } from './utils.
 // Global constants
 const DOMAIN_API = {
     "SESSION": "http://api.nodepay.ai/api/auth/session",
-    "PING": "http://nw.nodepay.ai/api/network/ping"
-}
-
+    "PING": ["http://nw.nodepay.ai/api/network/ping"]
+};
 const PING_INTERVAL = 60 * 1000 // 180 seconds
 
 // Logger configuration function to add an account prefix
